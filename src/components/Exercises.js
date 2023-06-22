@@ -36,7 +36,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     }
 
     fetchExercisesData();
-  }, [bodyPart])
+  }, [bodyPart, setExercises])
 
   return (
     <Box id="exercises"
